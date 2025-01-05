@@ -1,0 +1,197 @@
+@media (max-width: 480px) {
+    
+    /* Header */
+
+    .header-top {
+        margin-left: 10px;
+        font-size: 0.8rem;
+    }
+
+    .header-top img {
+        width: 30px;
+        height: 30px;
+        margin-right: 0.6rem;
+        vertical-align: middle;
+    }
+
+    header {
+        margin-bottom: 20px;
+    }
+
+    .header-content {
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        margin-top: 5px;
+    }
+
+    .select-language {
+        display: flex;
+        align-items: center;
+    }
+
+    .select-language img {
+        width: 30px;
+        height: 30px;
+        margin-right: 0.88rem;
+    }
+
+    .select-language a {
+        margin: 0;
+        margin-right: 15px;
+        color: whitesmoke;
+    }
+
+
+    /* Nav Menu */
+
+    nav {
+        background-color: #00FFFF;
+        padding: 1rem;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    nav li {
+        margin: 0 1rem;
+    }
+
+    nav a {
+        color: Black;
+        text-decoration: none;
+        font-size: 0.9rem;
+        position: relative;
+        display: inline-block;
+        transition: color 0.3s ease;
+    }
+
+    nav a::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        width: 0;
+        height: 2.5px;
+        background-color: Black;
+        transition: width 0.3s ease;
+    }
+
+    nav a:hover::after {
+        width: 100%;
+    }
+
+
+    /* Section */
+
+    .section {
+        padding: 3rem 1rem;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .section:nth-child(even) {
+        background-color: black;
+    }
+
+    .section-content {
+        text-align: left;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 1.5rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        border: 2px solid #ffffff;
+    }
+
+    .section-content p {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+
+    .section-content ul {
+        list-style: none;
+        padding: 0;
+        margin-left: 45px;
+        margin-top: 20px;
+    }
+
+    .section-content li {
+        margin-bottom: 0.8rem;
+        padding-left: 1.5rem;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .section-content li::before {
+        color: #00FFFF;
+        font-weight: bold;
+        display: inline-block;
+        width: 0.7rem;
+        margin-left: -1rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.9rem;
+        display: inline-block;
+        position: relative; /* Nécessaire pour utiliser ::after */
+    }
+
+    h2::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2.5px;
+        background: linear-gradient(to right, #00FFFF, #2272FF); /* Dégradé de gauche à droite */
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    h2:hover {
+        transform: scale(1.1); /* Agrandissement */
+    }
+
+
+    /* Section Portfolio */
+
+
+    .section-content a {
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 0.7rem;
+        position: relative;
+        display: inline-block;
+        transition: color 0.3s ease;
+    }
+
+    .section-content a::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        width: 0;
+        height: 2.5px;
+        background-color: whitesmoke;
+        transition: width 0.3s ease;
+    }
+
+    .section-content a:hover::after {
+        width: 100%;
+    }
+}

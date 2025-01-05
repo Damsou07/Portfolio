@@ -85,7 +85,6 @@ nav a {
     position: relative;
     display: inline-block;
     transition: color 0.3s ease;
-    font-size: 20px;
 }
 
 nav a::after {
@@ -188,7 +187,6 @@ h2:hover {
     position: relative;
     display: inline-block;
     transition: color 0.3s ease;
-    font-size: 20px;
 }
 
 .section-content a::after {
