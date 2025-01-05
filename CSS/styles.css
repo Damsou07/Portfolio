@@ -108,7 +108,7 @@ nav a:hover::after {
 .section {
     padding: 3rem 1rem;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 2.4rem;
 }
 
 .section:nth-child(even) {
@@ -133,13 +133,12 @@ nav a:hover::after {
 .section-content ul {
     list-style: none;
     padding: 0;
-    margin-left: 45px;
-    margin-top: 20px;
+    margin-left: 2rem;
+    margin-top: 1em;
 }
 
 .section-content li {
     margin-bottom: 0.8rem;
-    padding-left: 1.5rem;
     position: relative;
     display: flex;
     align-items: center;
@@ -207,8 +206,8 @@ h2:hover {
 
 /* CV */
 
-.Cv-content {
-    margin-bottom: 64px;
+.cv-content {
+    margin-bottom: 3rem;
 }
 
 
