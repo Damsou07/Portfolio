@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: Black;
+    background-color: black;
     color: whitesmoke;
     font-weight: bold;
 }
@@ -33,7 +33,7 @@ header {
 }
 
 header h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: 1.5rem;
     margin-top: 5px;
 }
@@ -71,17 +71,18 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    gap: 2.2rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
 }
 
 nav li {
-    margin: 0 1rem;
+    margin: 0.5rem 1rem;
 }
 
 nav a {
-    color: Black;
+    color: black;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
     position: relative;
     display: inline-block;
     transition: color 0.3s ease;
@@ -94,7 +95,7 @@ nav a::after {
     bottom: -3px;
     width: 0;
     height: 2.5px;
-    background-color: Black;
+    background-color: black;
     transition: width 0.3s ease;
 }
 
@@ -106,7 +107,7 @@ nav a:hover::after {
 /* Section */
 
 .section {
-    padding: 3rem 1rem;
+    padding: 2rem 1rem;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -117,29 +118,29 @@ nav a:hover::after {
 
 .section-content {
     text-align: left;
-    max-width: 800px;
+    max-width: 90%;
     margin: 0 auto;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     border: 2px solid #ffffff;
 }
 
 .section-content p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
 }
 
 .section-content ul {
     list-style: none;
     padding: 0;
-    margin-left: 45px;
+    margin-left: 30px;
     margin-top: 20px;
 }
 
 .section-content li {
     margin-bottom: 0.8rem;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
     position: relative;
     display: flex;
     align-items: center;
@@ -154,7 +155,7 @@ nav a:hover::after {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 1.5rem;
     padding-bottom: 0.9rem;
     display: inline-block;
@@ -179,11 +180,10 @@ h2:hover {
 
 /* Section Portfolio */
 
-
 .section-content a {
     color: whitesmoke;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
     position: relative;
     display: inline-block;
     transition: color 0.3s ease;
@@ -236,4 +236,56 @@ footer {
 
 .section {
     animation: fadeIn 1s ease-in;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .section-content {
+        padding: 1rem;
+        max-width: 100%;
+    }
+
+    .section-content p {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-content {
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        gap: 1rem;
+    }
+
+    .section-content {
+        padding: 0.5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
 }
