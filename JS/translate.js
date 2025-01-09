@@ -41,8 +41,8 @@ const translations = {
         "contact-title": "Contact",
         "contact-description": "Parce que nos idées et nos talents n'ont pas de limites, travaillons ensemble ?",
         "contact-info": "Quelques informations pour me contacter :",
-        "email-label": "Adresse mail : angibaud.pro@gmail.com",
-        "phone-label": "Téléphone : 07 71 08 47 62",
+        "email-label": "angibaud.pro@gmail.com",
+        "phone-label": "07 71 08 47 62",
         "gitlab-label": "GitLab : @angibaud.pro",
         "github-label": "GitHub : Damsou07",
         "footer-text": "&copy; 2025 Damien Angibaud"
@@ -88,8 +88,8 @@ const translations = {
         "contact-title": "Contact",
         "contact-description": "Because our ideas and talents have no limits, let's work together ?",
         "contact-info": "Some information to contact me:",
-        "email-label": "Email address: angibaud.pro@gmail.com",
-        "phone-label": "Phone: 07 71 08 47 62",
+        "email-label": "angibaud.pro@gmail.com",
+        "phone-label": "07 71 08 47 62",
         "gitlab-label": "GitLab: @angibaud.pro",
         "github-label": "GitHub: Damsou07",
         "footer-text": "&copy; 2025 Damien Angibaud"
