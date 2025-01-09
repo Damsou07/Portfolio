@@ -14,6 +14,7 @@ body {
 .header-top {
     margin-left: 10px;
     font-size: 1rem;
+    margin-top: 12px;
 }
 
 .header-top img {
@@ -65,29 +66,35 @@ nav {
     margin-bottom: 15px;
 }
 
-nav ul {
+.navbar-nav {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     gap: 2.2rem;
+    display: flex;
+    justify-content: center; /* Centre horizontalement les éléments */
+    width: 100%;
 }
 
-nav li {
+.nav-item {
     margin: 0 1rem;
+    text-align: center;
 }
 
-nav a {
+.nav-link {
     color: Black;
     text-decoration: none;
     font-size: 1.1rem;
     position: relative;
     display: inline-block;
     transition: color 0.3s ease;
+    color: black !important; /* Forcer la couleur noire */
+    padding: 0.5rem 1rem;
 }
 
-nav a::after {
+.nav-link::after {
     content: '';
     position: absolute;
     left: 0;
@@ -98,8 +105,14 @@ nav a::after {
     transition: width 0.3s ease;
 }
 
-nav a:hover::after {
+.nav-link:hover::after {
     width: 100%;
+}
+
+/* Ajouter un effet de survol pour les liens */
+.nav-link:hover {
+    color: #555; /* Couleur au survol */
+    text-decoration: none; /* Supprimer le soulignement au survol */
 }
 
 

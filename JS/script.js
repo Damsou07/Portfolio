@@ -5,8 +5,7 @@ window.addEventListener('scroll', () => {
     if (window.scrollY >= navOffsetTop) {
         nav.style.position = 'fixed';
         nav.style.top = '0';
-        nav.style.width = '98%';
-        nav.style.boxShadow = '0 2px 5px rgba(0, 0, 0, 0.1)';
+        nav.style.width = '100%';
         nav.style.zIndex = '1000';
     }
 
@@ -17,9 +16,10 @@ window.addEventListener('scroll', () => {
 });
 
 
-// Correction du décalage lors des redirections internes
 const adjustAnchorScroll = () => {
     const navHeight = document.querySelector('nav').offsetHeight;
+    const offsetAdjustment = 30;
+
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', (event) => {
             event.preventDefault();
@@ -27,7 +27,7 @@ const adjustAnchorScroll = () => {
             const targetElement = document.getElementById(targetId);
 
             if (targetElement) {
-                const targetPosition = targetElement.offsetTop - navHeight;
+                const targetPosition = targetElement.offsetTop - navHeight - offsetAdjustment;
                 window.scrollTo({
                     top: targetPosition,
                     behavior: 'smooth'
@@ -38,6 +38,7 @@ const adjustAnchorScroll = () => {
 };
 
 adjustAnchorScroll();
+
 
 
 // Animations au scroll
