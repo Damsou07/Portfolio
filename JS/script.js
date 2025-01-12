@@ -16,6 +16,7 @@ window.addEventListener('scroll', () => {
 });
 
 
+/* ajustement de la lors des redirections */
 const adjustAnchorScroll = () => {
     const navHeight = document.querySelector('nav').offsetHeight;
     const offsetAdjustment = 30;
@@ -38,7 +39,6 @@ const adjustAnchorScroll = () => {
 };
 
 adjustAnchorScroll();
-
 
 
 // Animations au scroll

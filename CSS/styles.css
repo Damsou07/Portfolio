@@ -34,7 +34,7 @@ header {
 }
 
 header h1 {
-    font-size: 3.70rem;
+    font-size: 3rem;
     margin-bottom: 1.8rem;
     margin-top: 35px;
 }
@@ -63,7 +63,7 @@ nav {
     background-color: #00FFFF;
     padding: 1rem;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .navbar-nav {
