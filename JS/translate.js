@@ -18,7 +18,7 @@ const translations = {
         "profile-point-2": "Un sens du design simple et efficace",
         "profile-point-3": "Étudiant en conception et développement logiciel, spécialisé en technologies web et mobiles",
         "profile-point-4": "Bases solides en algorithmie, programmation orientée objet, et requêtes de bases de données",
-        "profile-point-6": "De analyste à concepteur : cursus et connaissances en statistiques et science des données",
+        "profile-point-6": "D'analyste à concepteur : cursus et connaissances en statistiques et science des données",
         "profile-point-7": "Un parcours et une histoire dans la tech : diplôme en informatique industrielle / automatisme et robotique",
         "cv-title": "Mon CV",
         "experience-title": "Expérience professionnelle",
