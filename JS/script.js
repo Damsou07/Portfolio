@@ -1,26 +1,6 @@
-// Fige le menu à la navigation
-window.addEventListener('scroll', () => {
-    const nav = document.querySelector('nav');
-    const navOffsetTop = nav.offsetTop;
-    if (window.scrollY >= navOffsetTop) {
-        nav.style.position = 'fixed';
-        nav.style.top = '0';
-        nav.style.width = '100%';
-        nav.style.zIndex = '1000';
-    }
-
-    if (window.scrollY <= navOffsetTop) {
-        nav.style.position = 'static';
-        nav.style.boxShadow = 'none';
-    }
-});
-
-
-/* ajustement de la lors des redirections */
+// Correction du décalage lors des redirections internes
 const adjustAnchorScroll = () => {
     const navHeight = document.querySelector('nav').offsetHeight;
-    const offsetAdjustment = 30;
-
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', (event) => {
             event.preventDefault();
@@ -28,7 +8,7 @@ const adjustAnchorScroll = () => {
             const targetElement = document.getElementById(targetId);
 
             if (targetElement) {
-                const targetPosition = targetElement.offsetTop - navHeight - offsetAdjustment;
+                const targetPosition = targetElement.offsetTop - navHeight;
                 window.scrollTo({
                     top: targetPosition,
                     behavior: 'smooth'
