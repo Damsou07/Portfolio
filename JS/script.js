@@ -43,3 +43,15 @@ sections.forEach(section => {
     section.style.transition = 'opacity 1s ease-out, transform 1s ease-out';
     observer.observe(section);
 });
+
+
+// Vérifie si le site tourne sur desktop ou mobile
+document.addEventListener('DOMContentLoaded', () => {
+    const userAgent = navigator.userAgent.toLowerCase();
+    if (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(userAgent)) {
+        document.body.classList.add('is-mobile');
+    } else {
+        document.body.classList.add('is-desktop');
+    }
+});
+

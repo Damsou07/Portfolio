@@ -6,8 +6,12 @@
         background-size: cover;
     }
 
+    body.is-mobile {
+        background-color: black;
+    }
+
     .header-top {
-        margin-top: 170px;
+        margin-top: 180px;
         font-size: 0.9rem;
     }
 
@@ -16,7 +20,6 @@
         gap: 1rem;
         margin: 0;
     }
-
 
     header h1 {
         font-size: 2rem;
@@ -60,5 +63,6 @@
         flex-direction: column;
         height: auto;
         padding: 1rem;
+        height: 30px;
     }
 }
