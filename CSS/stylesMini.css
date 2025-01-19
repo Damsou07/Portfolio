@@ -1,13 +1,9 @@
-/* Styles pour les smartphones */
+/* Styles pour les ecrans réduits */
 @media screen and (max-width: 768px) {
 
     body {
         font-size: 14px;
         background-size: cover;
-    }
-
-    body.is-mobile {
-        background-color: black;
     }
 
     .header-top {
@@ -64,5 +60,14 @@
         height: auto;
         padding: 1rem;
         height: 30px;
+    }
+}
+
+/* Styles pour les smartphones */
+@media screen and (max-width: 420px) {
+
+    body {
+        background-color: black;
+        background-image: none;
     }
 }
