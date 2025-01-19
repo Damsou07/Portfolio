@@ -6,6 +6,11 @@
         background-size: cover;
     }
 
+    body.is-mobile {
+        background-color: black;
+        background-image: none;
+    }
+
     .header-top {
         margin-top: 180px;
         font-size: 0.9rem;
@@ -60,14 +65,5 @@
         height: auto;
         padding: 1rem;
         height: 30px;
-    }
-}
-
-/* Styles pour les smartphones */
-@media screen and (max-width: 420px) {
-
-    body {
-        background-color: black;
-        background-image: none;
     }
 }
