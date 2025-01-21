@@ -44,7 +44,7 @@ const translations = {
         "phone-label": "07 71 08 47 62",
         "gitlab-label": "GitLab : @angibaud.pro",
         "github-label": "GitHub : Damsou07",
-        "linkedin-label" : "Linkendin : Damien Angibaud",
+        "linkedin-label" : "Linkedin : Damien Angibaud",
         "footer-text": "&copy; 2025 Damien Angibaud"
     },
     en: {
@@ -91,7 +91,7 @@ const translations = {
         "phone-label": "07 71 08 47 62",
         "gitlab-label": "GitLab: @angibaud.pro",
         "github-label": "GitHub: Damsou07",
-        "linkedin-label" : "Linkendin : Damien Angibaud",
+        "linkedin-label" : "Linkedin : Damien Angibaud",
         "footer-text": "&copy; 2025 Damien Angibaud"
     }
 };
