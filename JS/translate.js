@@ -29,7 +29,7 @@ const translations = {
         "education-2": "BUT SD (Science des données)",
         "education-3": "Licence Pro TLWTM (Technologies logicielles pour le web et les terminaux mobiles)",
         "skills-title": "Compétences techniques",
-        "skill-1": "Langages informatiques : Java - Python - Javascript - PHP - HTML - CSS - SQL - Kotlin",
+        "skill-1": "Langages informatiques : Java - Python - Javascript - PHP - HTML - CSS - SQL - Kotlin - XML",
         "skill-2": "Technologies web : Symfony - Twig - Doctrine - Bootstrap",
         "skill-3": "Base de données : MySQL - SQLite",
         "skill-4": "Machine Learning / Data science : Python - Numpy - Pandas - Matplotlib - TensorFlow",
@@ -44,6 +44,7 @@ const translations = {
         "phone-label": "07 71 08 47 62",
         "gitlab-label": "GitLab : @angibaud.pro",
         "github-label": "GitHub : Damsou07",
+        "linkedin-label" : "Linkendin : Damien Angibaud",
         "footer-text": "&copy; 2025 Damien Angibaud"
     },
     en: {
@@ -75,7 +76,7 @@ const translations = {
         "education-2": "BUT SD (Data Science)",
         "education-3": "Pro License TLWTM (Software Technologies for Web and Mobile Devices)",
         "skills-title": "Technical Skills",
-        "skill-1": "Programming Languages: Java - Python - Javascript - PHP - HTML - CSS - SQL - Kotlin",
+        "skill-1": "Programming Languages: Java - Python - Javascript - PHP - HTML - CSS - SQL - Kotlin - XML",
         "skill-2": "Web Technologies: Symfony - Twig - Doctrine - Bootstrap",
         "skill-3": "Databases: MySQL - SQLite",
         "skill-4": "Machine Learning / Data Science: Python - Numpy - Pandas - Matplotlib - TensorFlow",
@@ -90,6 +91,7 @@ const translations = {
         "phone-label": "07 71 08 47 62",
         "gitlab-label": "GitLab: @angibaud.pro",
         "github-label": "GitHub: Damsou07",
+        "linkedin-label" : "Linkendin : Damien Angibaud",
         "footer-text": "&copy; 2025 Damien Angibaud"
     }
 };
